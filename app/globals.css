@@ -175,6 +175,12 @@ html, body {
   border-top: 1.5px solid var(--color-line);
 }
 
+/* ── Hero selection override (dark bg needs light text) */
+.hero-bg ::selection {
+  background: rgba(130, 120, 255, 0.45);
+  color: #ffffff;
+}
+
 /* ── Hero mesh gradient ────────────────────────── */
 .hero-bg {
   background:

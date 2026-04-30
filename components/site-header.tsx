@@ -114,14 +114,6 @@ export function SiteHeader() {
               href="https://ulypo.replit.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-ink-mute hover:text-ink transition-colors px-3 py-2"
-            >
-              {tr.signIn}
-            </Link>
-            <Link
-              href="https://ulypo.replit.app"
-              target="_blank"
-              rel="noopener noreferrer"
               className="btn-primary text-sm py-2 px-4"
             >
               {tr.tryFree}

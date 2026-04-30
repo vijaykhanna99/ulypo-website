@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s · Ulypo",
   },
   description:
-    "Ulypo helps you book restaurants, bridge language barriers, understand tax-refund steps, find what you need nearby, and move through high-friction situations — all from one guided experience.",
+    "We're building an AI that doesn't just talk — it gets real-world things done. Book restaurants, bridge language barriers, decode tax steps, find what's nearby, all from one conversation.",
   keywords: [
     "Ulypo",
     "AI Life Agent",

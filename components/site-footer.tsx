@@ -39,11 +39,11 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-line flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <p className="text-xs text-ink-mute">© {new Date().getFullYear()} Ulypo Labs, Inc. {f.rights}</p>
+          <p className="text-xs text-ink-mute">© {new Date().getFullYear()} Ulypo Inc. {f.rights}</p>
           <div className="flex items-center gap-4 text-ink-mute">
-            <Link href="https://x.com" aria-label="X" className="hover:text-ink transition-colors">
+            <Link href="https://www.youtube.com/@Ulypo/featured" aria-label="YouTube" target="_blank" rel="noopener noreferrer" className="hover:text-ink transition-colors">
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M18.244 2H21.5l-7.5 8.572L23 22h-6.875l-5.39-6.86L4.5 22H1.244l8.05-9.197L1 2h7.063l4.875 6.281L18.244 2zm-2.4 18h1.846L7.244 4H5.291l10.553 16z" />
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
               </svg>
             </Link>
             <Link href="https://linkedin.com/company/ulypo" aria-label="LinkedIn" className="hover:text-ink transition-colors">

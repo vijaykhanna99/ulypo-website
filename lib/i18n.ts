@@ -15,15 +15,16 @@ const en = {
     about:       "About",
     bookDemo:    "Book Demo",
   },
-  signIn:  "Sign in",
-  tryFree: "Try free",
+  signIn:  "Try our beta",
+  tryFree: "Try our beta",
 
   // ── Hero ──────────────────────────────────────────────────────────────────
   hero: {
-    badge:       "Private beta · iOS, Android & Web",
+    badge:       "Private beta · Web",
     h1a:         "Your AI",
     h1b:         "Life Agent.",
-    desc:        "Book restaurants, bridge language barriers, decode tax-refund steps, find what's nearby — Ulypo guides you through life's high-friction moments from one conversation.",
+    mission:     "We're building an AI that doesn't just talk — it gets real-world things done.",
+    desc:        "Book restaurants, bridge language barriers, decode tax-refund steps, find what's nearby — all from one conversation.",
     cta:         "Try Ulypo free",
     howItWorks:  "How it works",
     stats: [
@@ -99,15 +100,13 @@ const en = {
       { title: "Live AI agent calls",     desc: "Voice-first, hands-free. Talk to your agent like a trusted friend — for planning, brainstorming, or thinking out loud." },
       { title: "Voice translation",       desc: "Speak any of 30+ languages and be understood instantly. Live captions and natural voice output — built for travel." },
       { title: "AI surprise videos",      desc: "Tell Ulypo the story — it creates a personalized video with music and overlays, ready to share in minutes." },
-      { title: "Counselor concierge",     desc: "When life gets heavy, Ulypo connects you with licensed counselors — booked through the same conversation." },
-      { title: "Pay per action",          desc: "Credits buy bookings, calls, and videos. Clear price before Ulypo acts. No subscriptions required." },
     ],
   },
 
   // ── How it works section ──────────────────────────────────────────────────
   howItWorks: {
     chip: "How it works",
-    h2:   "From \"I wish someone would\"\nto done.",
+    h2:   "From \"I wish someone would do this for me\"\n→ Ulypo does it.",
     steps: [
       { title: "Sign in",     desc: "Continue with Google. No password, no forms — 10 seconds and you're in." },
       { title: "Just ask",    desc: "Tell Ulypo what you need in plain language. Book, translate, plan, find — anything." },
@@ -145,33 +144,17 @@ const en = {
   // ── Pricing teaser ────────────────────────────────────────────────────────
   pricing: {
     chip:       "Pricing",
-    h2:         "Pay for actions.\nNot promises.",
-    sub:        "Every action has a clear, posted price. You see the cost before Ulypo acts. No surprise charges.",
-    popular:    "Most popular",
+    h2:         "Free.\nNo credit card. No catch.",
+    sub:        "Everything is free during our early access. Sign in and start using Ulypo — no payment required.",
+    popular:    "",
     tiers: [
       {
-        name:    "Free",
+        name:    "Early Access",
         price:   "$0",
-        period:  "to start",
-        desc:    "25 credits on signup. Try every feature, no card required.",
-        features: ["AI agent chat","Real-world actions (limited)","1 surprise video","Voice translate · 30 min"],
-        cta:     "Get started",
-      },
-      {
-        name:    "Companion",
-        price:   "$14",
-        period:  "/ month",
-        desc:    "500 credits monthly. The full Ulypo experience.",
-        features: ["Unlimited agent chat","Real-world bookings","10 surprise videos / month","Live AI calls · 5 hours","Voice translation","Counselor concierge"],
-        cta:     "Start 14-day trial",
-      },
-      {
-        name:    "Top-up",
-        price:   "$5",
-        period:  "/ 100 credits",
-        desc:    "No subscription. Pay only for the actions you take.",
-        features: ["1 credit ≈ 1 quick action","Surprise video · 20 credits","Live AI call · 5 credits/min","Translation · 2 credits/min","Credits never expire"],
-        cta:     "Buy credits",
+        period:  "forever",
+        desc:    "Full access to every feature. No card, no trial, no catch.",
+        features: ["AI agent chat","Real-world actions","AI surprise videos","Live AI agent calls","Voice translation (30+ languages)"],
+        cta:     "Get started — it's free",
       },
     ],
   },
@@ -183,28 +166,28 @@ const en = {
     items: [
       { q: "What can Ulypo actually do?",        a: "Ulypo books restaurants, plans trips, finds and compares products, schedules counselor sessions, generates AI surprise videos, runs live AI agent calls, and translates conversations in real time — all from a single chat." },
       { q: "How is it different from ChatGPT?",  a: "Most AI chats answer questions. Ulypo takes action. When you ask it to book Asuka at 7pm, it actually books Asuka at 7pm and confirms it back. Less reading, more done." },
-      { q: "How does the credit system work?",   a: "Every action costs a fixed number of credits — visible before Ulypo acts. Get 25 free on signup, subscribe for a monthly bundle, or top up only when you need to. Credits never expire." },
+      { q: "Is Ulypo really free?",               a: "Yes — completely free during early access. No credit card, no trial, no catch. Every feature is available from day one." },
       { q: "Which languages does Ulypo support?",a: "30+ languages with real-time voice translation. Japanese-first, with natural voice output and live captions. Switch language any time from settings." },
-      { q: "Which platforms can I use it on?",   a: "iOS, Android, and the web. Add Ulypo to your home screen and it works as a native PWA — offline-friendly, full-screen, instant boot." },
+      { q: "Which platforms can I use it on?",   a: "Ulypo is currently available on the web. iOS and Android apps are coming soon." },
       { q: "Is my data private?",                a: "Always. We use end-to-end encryption and never train on your personal data. Your conversations and bookings belong only to you." },
     ],
   },
 
   // ── CTA ───────────────────────────────────────────────────────────────────
   cta: {
-    badge:    "No credit card required",
+    badge:    "Free during early access",
     h2a:     "Your AI Life Agent",
     h2b:     "is ready.",
-    sub:     "Sign in with one tap. First 25 credits are free — try every agent, no card required.",
+    sub:     "Sign in with one tap. Everything is free — no card, no trial, no limits.",
     primary: "Try Ulypo free",
-    ghost:   "View pricing",
-    platforms: ["iOS","Android","Web","No credit card"],
+    ghost:   "See what's included",
+    platforms: ["Web","iOS coming soon","Android coming soon","Always free"],
   },
 
   // ── Footer ────────────────────────────────────────────────────────────────
   footer: {
     tagline: "Ulypo is your AI Life Agent — books, translates, plans, and acts from one conversation.",
-    tryFree: "Try free",
+    tryFree: "Try our beta",
     columns: [
       { title: "Product",  links: [{ href: "/features", label: "Features" },{ href: "/how-it-works", label: "How it works" },{ href: "/pricing", label: "Pricing" }] },
       { title: "Company",  links: [{ href: "/about", label: "About" },{ href: "/contact", label: "Contact" }] },
@@ -282,7 +265,7 @@ const en = {
   // ── How it works page ─────────────────────────────────────────────────────
   howItWorksPage: {
     eyebrow: "How it works",
-    title:   "From \"I wish someone would\" to \"done\" — in one chat.",
+    title:   "From \"I wish someone would do this for me\" → Ulypo does it.",
     desc:    "Ulypo isn't a chatbot. It's an AI agent that can take real-world action on your behalf — and show you exactly what it did, every step of the way.",
     anatomyChip:    "Anatomy of one ask",
     anatomyHeading: "What \"Book me dinner\" really looks like.",
@@ -307,21 +290,20 @@ const en = {
   // ── Pricing page ──────────────────────────────────────────────────────────
   pricingPage: {
     eyebrow: "Pricing",
-    title:   "Honest credits. No hidden charges.",
-    desc:    "Every action — a booking, a video, a call, a translation — costs a fixed number of credits. You see the price before Ulypo acts. Always.",
-    tableHeading: "What things cost",
-    tableSub:     "Quick reference for every credit you'll ever spend.",
-    tableColAction: "Action",
+    title:   "Free during early access.",
+    desc:    "Everything is free right now. No credit card, no trial period, no hidden charges. Sign in and use every feature.",
+    tableHeading: "What's included",
+    tableSub:     "Everything below is free during early access.",
+    tableColAction: "Feature",
     tableColCost:   "Cost",
     tableColNote:   "Note",
-    tableNote: "Credits never expire. You can see your remaining balance and purchase history any time, right inside the app.",
+    tableNote: "Pricing may be introduced in the future. We'll give you plenty of notice before anything changes.",
     costs: [
-      { feature: "Agent chat (text)",                            cost: "Free",          note: "Unlimited on Companion"          },
-      { feature: "Real-world action (booking, purchase, message)",cost: "1–3 credits",  note: "Confirmed before charge"         },
-      { feature: "Surprise AI video",                            cost: "20 credits",    note: "≈ $1 per video"                  },
-      { feature: "Live AI agent call",                           cost: "5 credits / min",note: "First minute always free"       },
-      { feature: "Real-time voice translation",                  cost: "2 credits / min",note: "30+ languages supported"       },
-      { feature: "Counselor booking concierge",                  cost: "Free",          note: "You only pay the counselor"      },
+      { feature: "Agent chat (text)",                             cost: "Free",  note: "Unlimited"                      },
+      { feature: "Real-world actions (booking, purchase, message)",cost: "Free", note: "Confirmed before every action"  },
+      { feature: "Surprise AI video",                             cost: "Free",  note: "Personalized video generation"  },
+      { feature: "Live AI agent call",                            cost: "Free",  note: "Voice-first, hands-free"        },
+      { feature: "Real-time voice translation",                   cost: "Free",  note: "30+ languages supported"        },
     ],
   },
 
@@ -369,7 +351,8 @@ const ja: Translations = {
     badge:       "プライベートベータ · iOS、Android & Web",
     h1a:         "あなたの AI",
     h1b:         "ライフエージェント。",
-    desc:        "レストラン予約、言語の壁を突破、税還付ステップを解説、近くを発見 — Ulypoは1つの会話から人生の困難な瞬間をガイドします。",
+    mission:     "話すだけでなく、実際に動くAIを作っています。",
+    desc:        "レストラン予約、言語の壁を突破、税還付ステップを解説、近くを発見 — 1つの会話からすべて。",
     cta:         "Ulypoを無料で試す",
     howItWorks:  "仕組みを見る",
     stats: [
@@ -695,7 +678,8 @@ const zh: Translations = {
     badge:       "私测版 · iOS、Android & Web",
     h1a:         "您的 AI",
     h1b:         "生活助手。",
-    desc:        "预订餐厅、打破语言障碍、解码退税步骤、发现附近好去处 — Ulypo通过一次对话引导您度过生活中的复杂时刻。",
+    mission:     "我们正在构建一个不只是对话、而是真正完成事情的AI。",
+    desc:        "预订餐厅、打破语言障碍、解码退税步骤、发现附近好去处 — 一次对话，搞定一切。",
     cta:         "免费试用Ulypo",
     howItWorks:  "了解工作原理",
     stats: [

@@ -32,7 +32,28 @@ export function Hero() {
               </span>
             </h1>
 
-            <p className="mt-6 text-lg md:text-xl leading-relaxed max-w-lg" style={{ color: "rgba(255,255,255,0.62)" }}>
+            {/* Mission statement */}
+            <p className="mt-6 text-xl md:text-2xl font-semibold leading-snug max-w-lg">
+              <span style={{ color: "rgba(255,255,255,0.9)" }}>
+                {h.mission.split("— ")[0]}
+              </span>
+              {h.mission.includes("— ") && (
+                <>
+                  <span style={{ color: "rgba(255,255,255,0.9)" }}>{"— "}</span>
+                  <span style={{
+                    background: "linear-gradient(120deg,#c7cafd 0%,#a5a8fc 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    backgroundClip: "text",
+                  }}>
+                    {h.mission.split("— ")[1]}
+                  </span>
+                </>
+              )}
+            </p>
+
+            {/* Supporting detail */}
+            <p className="mt-3 text-base md:text-lg leading-relaxed max-w-lg" style={{ color: "rgba(255,255,255,0.50)" }}>
               {h.desc}
             </p>
 
